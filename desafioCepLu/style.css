@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color:#2196F3;
+    background: linear-gradient(to right,#0D47A1, #3D5AFE, #2196F3);
+}
+
+header, section {
+    font-family: verdana;
+}
+
+.titulo {
+padding-top: 50px;
+color: white;
+text-align: center;
+}
+
+.subtitulo {
+    text-align: center;
+    color: white;
+}
+
+.icone {
+    top: 150px;
+    right: 47%;
+    padding: 30px; 
+    font-size: 4rem;
+    border-radius:100%;
+    color: #2196F3;
+    background-color: white;
+    position: absolute;
+}
+
+section {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 40px;
+}
+
+
+fieldset {
+    padding: 10px;
+    border:none
+}
+
+form {
+    width: 100%;
+    height: auto;
+    padding: 2px;
+}
+
+label {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    display: block;
+}
+
+input, label {
+    margin: 0 auto;
+}
+
+.txt {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#btnAcharCep{
+    width: 100%;
+    height: 50px;
+    margin-top:20px;   
+    border-radius: 5px;    
+    color: white;   
+    border-bottom: 2px solid black;
+    background-color: #2196F3;
+    cursor: pointer;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="cep.js"></script>
+
+    <title>DESAFIO 2-JS 10/2021</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">ME ACHA!</h1>
+        <h5 class="subtitulo">ENCONTRE UM ENDEREÇO PELO NÚMERO DO CEP</h5>
+        <span class="material-icons icone">
+            travel_explore
+        </span>
+    </header>
+    
+  
+    <section>
+        <form>
+            <fieldset>
+                <label for="NumeroCep">CEP</label>
+                <input type="text" required class="txt" id="NumeroCep" name="Cep" placeholder = "Digite um Cep válido">
+                <label for="logradouro">RUA</label>
+                <input type="text" required class="txt" id="logradouro" name="logradouro">
+                <label for="bairro">BAIRRO</label>
+                <input type="text" required class="txt" id="bairro" name="bairro" value="">
+                <label for="cidade">CIDADE</label>
+                <input type="text" required class="txt" id="localidade" name="localidade" value="">
+                <label for="estado">ESTADO</label>
+                <input type="text" required class="txt" id="uf" name="uf" value="">
+                <input id="btnAcharCep" type="button" name="buscar" value="BUSCAR">
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
+
+<!-- //placeholder = "Digite um Cep válido" -->
